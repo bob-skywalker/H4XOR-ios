@@ -11,6 +11,10 @@
 		5CDAD502295693E700A5647B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD501295693E700A5647B /* ContentView.swift */; };
 		5CDAD504295693E900A5647B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAD503295693E900A5647B /* Assets.xcassets */; };
 		5CDAD507295693E900A5647B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAD506295693E900A5647B /* Preview Assets.xcassets */; };
+		5CDAD510295699CC00A5647B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD50F295699CC00A5647B /* NetworkManager.swift */; };
+		5CDAD51229569B0C00A5647B /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD51129569B0C00A5647B /* PostData.swift */; };
+		5CDAD5172956A62B00A5647B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD5162956A62B00A5647B /* DetailView.swift */; };
+		5CDAD5192956A8DA00A5647B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD5182956A8DA00A5647B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5CDAD501295693E700A5647B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CDAD503295693E900A5647B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CDAD506295693E900A5647B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CDAD50F295699CC00A5647B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5CDAD51129569B0C00A5647B /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		5CDAD5162956A62B00A5647B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5CDAD5182956A8DA00A5647B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		5CDAD4F3295693E700A5647B = {
 			isa = PBXGroup;
 			children = (
+				5CDAD5132956A5BC00A5647B /* View */,
+				5CDAD50E295699AD00A5647B /* Models */,
 				5CDAD4FE295693E700A5647B /* H4XOR */,
 				5CDAD4FD295693E700A5647B /* Products */,
 			);
@@ -52,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				5CDAD4FF295693E700A5647B /* H4XORApp.swift */,
-				5CDAD501295693E700A5647B /* ContentView.swift */,
 				5CDAD503295693E900A5647B /* Assets.xcassets */,
 				5CDAD505295693E900A5647B /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				5CDAD506295693E900A5647B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CDAD50E295699AD00A5647B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD50F295699CC00A5647B /* NetworkManager.swift */,
+				5CDAD51129569B0C00A5647B /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CDAD5132956A5BC00A5647B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD501295693E700A5647B /* ContentView.swift */,
+				5CDAD5162956A62B00A5647B /* DetailView.swift */,
+				5CDAD5182956A8DA00A5647B /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDAD510295699CC00A5647B /* NetworkManager.swift in Sources */,
+				5CDAD51229569B0C00A5647B /* PostData.swift in Sources */,
 				5CDAD502295693E700A5647B /* ContentView.swift in Sources */,
+				5CDAD5192956A8DA00A5647B /* WebView.swift in Sources */,
+				5CDAD5172956A62B00A5647B /* DetailView.swift in Sources */,
 				5CDAD500295693E700A5647B /* H4XORApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
